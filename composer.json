@@ -20,7 +20,6 @@
             "email": "richard@securebucket.com"
         }
     ],
-    "version": "1.0.1",
     "license": "MIT",
     "keywords": ["svg", "icons", "lucide", "php"],
     "homepage": "https://github.com/sideshot/php-svg-icons",
