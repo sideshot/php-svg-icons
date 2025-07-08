@@ -1,0 +1,31 @@
+{
+    "name": "sideshot/php-svg-icons",
+    "description": "PHP package for Lucide SVG icons with easy attribute injection",
+    "require": {
+        "php": ">=7.4"
+    },
+    "scripts": {
+        "post-install-cmd": [
+            "php bin/download-lucide.php"
+        ]
+    },
+    "autoload": {
+        "psr-4": {
+            "Sideshot\\PhpSvgIcons\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Richard",
+            "email": "richard@securebucket.com"
+        }
+    ],
+    "version": "1.0.1",
+    "license": "MIT",
+    "keywords": ["svg", "icons", "lucide", "php"],
+    "homepage": "https://github.com/sideshot/php-svg-icons",
+    "support": {
+        "issues": "https://github.com/sideshot/php-svg-icons/issues",
+        "source": "https://github.com/sideshot/php-svg-icons"
+    }
+}
