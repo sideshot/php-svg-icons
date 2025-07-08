@@ -2,7 +2,7 @@
     "name": "sideshot/php-svg-icons",
     "description": "PHP package for Lucide SVG icons with easy attribute injection",
     "require": {
-        "php": ">=7.4"
+        "php": ">=8.0"
     },
     "scripts": {
         "post-install-cmd": [
